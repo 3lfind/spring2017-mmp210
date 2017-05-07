@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>tablet</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  
+    </head>
+    <body>
+        <div class="container">
+            <!-- nav -->
+            <div id="nav">
+                <ul class="topnav" id="myTopnav">
+                    <li><a class="active" href="tablet.html">home</a></li>
+                    <li><a href="artist.html">artists</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:2.25em;" onclick="myFunction()">&#9776;</a>
+                    </li>
+                </ul>
+            </div><!-- end of nav -->
+            <h1>the others in art</h1>
+          
+           <div class="slideshow-container"><!--slider-->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/wangechi-mutu/wangechi-mutu-forbidden-fruit-picker-2015.jpg" style="width:100%" alt="artwork">
+    <div class="text">FRUIT PICKER</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/wilfredo-lam/wilfredo-lam-the-murmur-1943.jpg" style="width:100%" alt="artwork">
+    <div class="text">MURMUR 1943</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/jacob-lawrence/jacob-lawrence_harriet-tubman.jpg" style="width:100%" alt="artwork">
+    <div class="text">HARRIET TUBMAN</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div><!--en dof slideshow container-->
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div><!-- end of slideshow-->
+
+   
+            <div class="row col-4 right">
+                <div class="heading">
+                    <h2>Wangechi-mutu</h2>
+                    <h3>Foxy Lady</h3>
+                </div><!-- end of heading -->
+                <div class="img-container">
+                    <img src="images/wangechi-mutu/wangechi-mutu-foxy-lady-2008.jpg" alt="artwork">
+                </div><!-- end of image container -->
+                <div class="main-content">
+                    <p>
+                    Wangechi Mutu (born 22 June 1972 in Nairobi, Kenya) is an artist and sculptor who lives and works in Brooklyn, New York. Mutu is considered by many to be one of the most important contemporary African artists of recent years, and her work has achieved much global acclaim. 
+                    </p>
+                </div><!-- end of main content text -->
+            </div><!-- end of row -->
+        
+        <div class="row left col-4 right">
+                <div class="heading">
+                    <h2>Kara-walker</h2>
+                    <h3>Silhouettes</h3>
+                </div><!-- end of heading -->
+                <div class="img-container">
+                    <img src="images/kara-walker/kara-walker-silhouettes-01.jpg" alt="artwork">
+                </div><!-- end of image container -->
+                <div class="main-content">
+                    <p>
+                  Kara Elizabeth Walker (born November 26, 1969) is an African American contemporary painter, silhouettist, print-maker, installation artist, and film-maker who explores race, gender, sexuality, violence, and identity in her work. She is best known for her room-size tableaux of black cut-paper silhouettes. Walker lives in New York City and has taught extensively at Columbia University. 
+                    </p>
+                </div><!-- end of main content text -->
+            </div><!-- end of row -->
+            
+            <div class="row col-4 right">
+                <div class="heading">
+                    <h2>Carrie-weems</h2>
+                    <h3>Kitchen Table</h3>
+                </div><!-- end of heading -->
+                <div class="img-container">
+                    <img src="images/carrie-mae-weems/carrie-mae-weems-from-the-kitchen-table-02.jpg" alt="artwork">
+                </div><!-- end of image container -->
+                <div class="main-content">
+                    <p>
+                   Carrie Mae Weems (born April 20, 1953) is an American artist who  is best known for her work in the field of photography. Her award-winning photographs, films, and videos have been displayed in over 50 exhibitions in the United States and abroad and focus on serious issues that face African Americans today, such as racism, sexism, politics, and personal identity. 
+                    </p>
+                </div><!-- end of main content text -->
+            </div><!-- end of row -->
+        
+        <div class="row left col-4">
+                <div class="heading">
+                    <h2>Jacob-lawrence</h2>
+                    <h3>Migration Series</h3>
+                </div><!-- end of heading -->
+                <div class="img-container">
+                    <img src="images/jacob-lawrence/jacob-lawrence_migration-series-panel40.jpg" alt="artwork">
+                </div><!-- end of image container -->
+                <div class="main-content">
+                    <p>
+                    Jacob Lawrence (September 7, 1917 – June 9, 2000) was an African-American painter known for his portrayal of African-American life. But not only was he a painter, storyteller, and interpreter; he also was an educator. Lawrence referred to his style as "dynamic cubism," though by his own account the primary influence was not so much French art as the shapes and colors of Harlem.
+                    </p>
+                </div><!-- end of main content text -->
+            </div><!-- end of row -->
+          
+        
+            <footer>
+                   <hr>
+                <p>Copyright &#169; 2016 </p>
+            </footer>
+
+        </div><!-- end of container -->
+        
+        <!-- js-->
+        <script>
+     
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+            
+               var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1} 
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none"; 
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block"; 
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+    </body>
+</html>
